@@ -1,6 +1,45 @@
-
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
 *{
     margin: 0;
     padding: 0;
-    
 }
+
+main{
+    border: 2px red;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+
+
+}
+
+section 
+{
+    border: 2px red;
+    transform-style:preserve-3d;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.titulo{
+    text-align: center;
+    font-size:4rem;
+    font-family: sans-serif;
+
+}
+.cuerpo{
+    text-align: center;
+    font-size: 4rem;
+    font-family: sans-serif;
+
+}
+
